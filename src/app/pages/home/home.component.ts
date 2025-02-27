@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ApiService } from '../../api.service';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [NgClass],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
